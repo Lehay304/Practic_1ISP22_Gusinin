@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #dfdfdf;
+}
+.Mainwindow{
+    width: 80%;
+    height: fit-content;
+    background-color: #ffffff;
+    border-radius: 25px;
+    
+}
+.ROTwindow{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    gap: 10px;
+}
+.editor{
+    padding: 10px;
+    width: 45%;
+    height: 100%;
+}
+.editor textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    font-size: 14px;
+    height: 80%;
+}
+.editorTitle{
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 14px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    margin: 0 0 10px 0;
+}
+.result{
+    padding: 10px;
+    width: 45%;
+    height: 100%;
+    background-color: #f400fc11;
+    border: 2px solid #6300662c;
+    color: #5e0361;
+    font-size: 14px;
+    border-radius: 25px;
+}
+.resultTitle{
+    border: 1px solid #630066;
+    width: fit-content;
+    font-size: 14px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    margin: 0 0 10px 0;
+}
+.ROTbtn{
+   margin: 30px;
+}
+.ROTbtn button{
+    padding: 5px 10px 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 15px;
+}
